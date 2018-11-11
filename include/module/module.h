@@ -1,2 +1,2 @@
-int get_test_value(void);
-void do_something_wrong();
+int module_get_int_value(void);
+void module_do_something_wrong(void);

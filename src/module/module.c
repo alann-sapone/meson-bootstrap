@@ -5,12 +5,12 @@ typedef struct {
     GPtrArray *array;
 } TMisc;
 
-int get_test_value(void)
+int module_get_int_value(void)
 {
     return 1234;
 }
 
-void do_something_wrong(void)
+void module_do_something_wrong(void)
 {
     TMisc *misc = NULL;
     g_ptr_array_add(misc->array, (gpointer)misc->array);

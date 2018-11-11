@@ -3,5 +3,5 @@
 
 int main(int argc, char **argv)
 {
-    g_assert_cmpint(1234, ==, get_test_value());
+    g_assert_cmpint(1234, ==, module_get_int_value());
 }

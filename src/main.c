@@ -3,6 +3,6 @@
 
 int main(int argc, char **argv)
 {
-  g_warning("Returned value = %d", get_test_value());
+  g_warning("Returned value = %d", module_get_int_value());
   return 0;
 }

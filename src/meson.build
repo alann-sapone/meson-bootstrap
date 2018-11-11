@@ -3,6 +3,6 @@ sources = ['main.c']
 sources += module_sources
 
 executable('cdemo', sources,
-    dependencies : [glib_dep],
+    dependencies : shared_dependencies,
     include_directories: [includes_dir],
 )
