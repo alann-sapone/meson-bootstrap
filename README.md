@@ -2,7 +2,8 @@
 This simple project has a single goal : How to fasten C projects development in a lightweight environment.
 
 You will need glib-2.0 dev dependency for this demo to work.
-It aims in a simple app with a module, in a visual studio code environment with IntelliSense.
+
+It aims in a simple app with a module, also having unit testing.
 
 # How to 
 > meson build
